@@ -1,0 +1,10 @@
+{
+	"host": "your_aws_iot_endpoint.iot.ap-northeast-1.amazonaws.com",
+	"port": 8883,
+	"clientId": "your_client_id",
+	"thingName": "your_thing_name",
+	"caCert": "./certs/root-CA.crt",
+	"clientCert": "./certs/your_thing_name.cert.pem",
+	"privateKey": "./certs/your_thing_name.private.key",
+	"topic": "$aws/things/your_thing_name/shadow/update"
+}

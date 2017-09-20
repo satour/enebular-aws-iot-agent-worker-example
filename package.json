@@ -1,0 +1,13 @@
+{
+  "name": "enebular-aws-iot-agent-worker-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "AWSIOT_CONFIG_FILE=./config.json NODE_RED_DIR=./node-red enebular-awsiot-agent"
+  },
+  "dependencies": {
+    "node-red": "^0.13.4",
+    "isomorphic-fetch": "matthew-andrews/isomorphic-fetch",
+    "enebular-awsiot-agent": "enebular/enebular-awsiot-agent"
+  }
+}
